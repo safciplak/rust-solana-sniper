@@ -1,0 +1,9 @@
+[package]
+name = "solana_tpu_client"
+version = "0.1.0"
+edition = "2018"
+
+[dependencies]
+solana-client = "1.8.0"
+solana-sdk = "1.8.0"
+tokio = { version = "1", features = ["full"] }
